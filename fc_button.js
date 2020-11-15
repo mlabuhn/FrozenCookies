@@ -570,11 +570,13 @@ function FCMenu() {
                 if (display && display.length > 0 && display.length > current) {
                     listing = $('<div>').addClass('listing');
                     listing.append($('<a class="option" id="' + preferenceButtonId + '" onclick="cyclePreference(\'' + preference + '\');">' + display[current] + '</a>'));
-                    if (hint && Array.isArray(hint) {
-                        listing.append($('<label>' + hint[current] + '</label>'));
-                    } else {
-			listing.append($('<label>' + hint.replace(/\$\{(.+)\}/g, function (s, id) { return FrozenCookies[id]; }) + '</label>'));
-		    }
+                    if (hint) {
+			            if(!Array.isArray(hint)){
+                            listing.append($('<label>' + hint.replace(/\$\{(.+)\}/g, function (s, id) { return FrozenCookies[id]; }) + '</label>'));
+                    	} else {
+                            listing.append($('<label>' + hint[current] + '</label>'));
+		                }
+                    }
                     if (extras) {
                         listing.append($(extras.replace(/\$\{(.+)\}/g, function (s, id) { return fcBeautify(FrozenCookies[id]); })));
                     }
