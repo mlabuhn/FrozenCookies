@@ -56,6 +56,21 @@ FrozenCookies.preferenceValues = {
         'display': ['Blacklist OFF', 'Blacklist Mode SPEEDRUN', 'Blacklist Mode HARDCORE', 'Blacklist Mode GRANDMAPOCALYPSE', 'Blacklist Mode NO BUILDINGS'],
         'default': 0
     },
+    'autoDragon': {
+        'hint': 'Automatically grows your dragon and set the aura\'s if set',
+        'display': ['autoDragon OFF', 'autoDragon ON'],
+        'default': 0
+    },
+    'firstDragonAura': {
+        'hint': ['Select an aura from those your dragon knows.', 'Kittens are <b>5%</b> more effective.', 'Clicking is <b>5%</b> more effective.', 'Grandmas gain <b>+1% CpS</b> for every non-grandma building.', 'Golden cookies may trigger a <b>Dragon Harvest</b>.', 'Buildings sell back for <b>50%</b> instead of 25%.', 'All upgrades are <b>2%</b> cheaper.', 'All buildings are <b>2%</b> cheaper.', 'Prestige CpS bonus <b>+5%</b>.', 'Golden cookies appear <b>+5%</b> more often.', 'Golden cookies may trigger a <b>Dragonflight</b>.', 'Golden cookies give <b>10%</b> more cookies.', 'Wrath cookies give <b>10%</b> more cookies.', 'Golden cookies last <b>5%</b> longer.', 'Random drops are <b>25% more common</b>.', 'All cookie production <b>multiplied by 2</b>.', '<b>+123% CpS</b> per golden cookie on-screen multiplicative.', '<b>+5% sugar lump growth</b> and sugar lumps are <b>twice as likely</b> to be unusual.', '<b>One tenth</b> of every other dragon aura <b>combined</b>.', 'With no buffs and no golden cookies on screen selling your most powerful building has <b>10% chance to summon one</b>.'],
+        'display': ['No aura', 'Breath of Milk', 'Dragon Cursor', 'Elder Battalion', 'Reaper of Fields', 'Earth Shatterer', 'Master of the Armory', 'Fierce Hoarder', 'Dragon God', 'Arcane Aura', 'Dragonflight', 'Ancestral Metamorphosis', 'Ancestral Metamorphosis', 'Unholy Dominion', 'Epoch Manipulator', 'Mind Over Matter', 'Radiant Appetite', 'Dragon\'s Fortune', 'Dragon\'s Curve', 'Reality Bending', 'Dragon Orbs'],
+        'default': 0
+    },
+    'secondDragonAura': {
+        'hint': ['Select an aura from those your dragon knows.', 'Kittens are <b>5%</b> more effective.', 'Clicking is <b>5%</b> more effective.', 'Grandmas gain <b>+1% CpS</b> for every non-grandma building.', 'Golden cookies may trigger a <b>Dragon Harvest</b>.', 'Buildings sell back for <b>50%</b> instead of 25%.', 'All upgrades are <b>2%</b> cheaper.', 'All buildings are <b>2%</b> cheaper.', 'Prestige CpS bonus <b>+5%</b>.', 'Golden cookies appear <b>+5%</b> more often.', 'Golden cookies may trigger a <b>Dragonflight</b>.', 'Golden cookies give <b>10%</b> more cookies.', 'Wrath cookies give <b>10%</b> more cookies.', 'Golden cookies last <b>5%</b> longer.', 'Random drops are <b>25% more common</b>.', 'All cookie production <b>multiplied by 2</b>.', '<b>+123% CpS</b> per golden cookie on-screen multiplicative.', '<b>+5% sugar lump growth</b> and sugar lumps are <b>twice as likely</b> to be unusual.', '<b>One tenth</b> of every other dragon aura <b>combined</b>.', 'With no buffs and no golden cookies on screen selling your most powerful building has <b>10% chance to summon one</b>.'],
+        'display': ['No aura', 'Breath of Milk', 'Dragon Cursor', 'Elder Battalion', 'Reaper of Fields', 'Earth Shatterer', 'Master of the Armory', 'Fierce Hoarder', 'Dragon God', 'Arcane Aura', 'Dragonflight', 'Ancestral Metamorphosis', 'Ancestral Metamorphosis', 'Unholy Dominion', 'Epoch Manipulator', 'Mind Over Matter', 'Radiant Appetite', 'Dragon\'s Fortune', 'Dragon\'s Curve', 'Reality Bending', 'Dragon Orbs'],
+        'default': 0
+    },
     'cursorLimit': {
         'hint': 'Limit max number of cursors to keep Godzamok useful',
         'display': ['Cursor Limit OFF', 'Cursor Limit ON'],
